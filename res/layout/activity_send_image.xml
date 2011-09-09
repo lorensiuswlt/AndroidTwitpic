@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"	
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+    
+	<TextView  
+		android:id="@+id/tv_title"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:textStyle="bold" 
+    	android:textSize="35sp"
+    	android:text="SEND TO TWITPIC"/>
+    
+    <TextView
+    	android:id="@+id/tv_user"  
+    	android:layout_below="@id/tv_title"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Current Twitter User:"
+    	android:layout_marginTop="10dp"/>
+    		
+	<Button 
+		android:id="@+id/btn_choose"
+		android:layout_below="@id/tv_user"
+		android:text="Choose Image" 		 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"/>
+		
+	<Button 
+		android:id="@+id/btn_send"
+		android:layout_below="@id/tv_user"
+		android:layout_toRightOf="@id/btn_choose"
+		android:text="Send to Twitpic" 		 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"/>
+		
+	<ImageView 
+		android:id="@+id/iv_pic"
+		android:layout_below="@id/btn_choose"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"		
+		android:layout_marginTop="10dp"/>
+		
+</RelativeLayout>

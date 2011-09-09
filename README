@@ -1,0 +1,8 @@
+AndroidTwitpic
+--------------
+
+This sample project shows how to send image to Twitpic. External Twitter4j and signpost jar files can be downloaded from:
+http://londatiga.net/downloads/Twitter_ExtJars.zip.
+
+Author: Lorensius W. L. T <lorenz@londatiga.net>
+Website: http://www.londatiga.net
